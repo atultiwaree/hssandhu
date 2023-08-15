@@ -12,6 +12,8 @@
     spinner();
     
     
+    
+    
     // Initiate the wowjs
     new WOW().init();
 
@@ -78,4 +80,9 @@
     });
     
 })(jQuery);
+
+function scrollwindow(){
+    window.scrollBy(0,800);
+}
+   // document.getElementsByClassName('btn').addEventLIstener("click",scrollWin);
 
